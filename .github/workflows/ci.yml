@@ -26,7 +26,7 @@ jobs:
           python star.py README_zh-CN.md
       - name: commit
         run: |
-          git config --global user.email "liuzi6612@gmail.com"
+          git config --global user.email "xjh22222228@gmail.com"
           git config --global user.name "liuzi6612"
           git add .
           git commit -m "CI: update stars"
